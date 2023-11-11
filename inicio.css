@@ -1,0 +1,182 @@
+body{
+    background-color: rgb(24, 28, 48);
+}
+
+/*_________________________________________________________________*/
+
+/*Botones de la parte de arriba*/
+
+.section-botonesinicio{
+    display: flex;
+    align-items: flex-end;
+    gap: 250px;
+}
+
+#botoninicio{
+    border: 3px solid red;
+    height: 75px;
+    margin-left: 50px;
+    width: 95px;
+}
+
+.botoneshyj{
+    background-color: rgb(230, 221, 196);
+    border-bottom-left-radius: 10% ;
+    border-bottom-right-radius: 10% ;
+    border-top-left-radius: 15% ;
+    border-top-right-radius: 15% ;
+    color: rgb(24, 28, 48);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    text-align: center;
+    box-shadow: 2px 2px rgb(103, 137, 131);
+}
+
+.botoneshyj:active{
+    box-shadow: none;
+    transform: translate(2px, 2px);
+}
+
+a{
+    text-decoration: none;
+}
+
+/*_________________________________________________________________*/
+
+/* Título y subtítulo */
+
+#titulo{
+    color: rgb(238, 238, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    padding-bottom: 150px;
+    padding-left: 237px;
+    padding-right: 237px;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.fondotitulo{
+    background-image: url('./codigo.jpg');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 100px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+h2{
+    color: rgb(103, 137, 131);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+/*_________________________________________________________________*/
+
+/* Tarjetas */
+
+.tarjetas{
+    background-color: rgb(230, 221, 196);
+    border: 5px solid rgb(103, 137, 131);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 410px;
+    margin-left: 100px;
+    margin-top: 150px;
+    text-align: center;
+    width: 350px;
+}
+
+.imgtar{
+    width: 350px;
+}
+
+#tarjetajuego{
+    margin-left: 550px;
+    margin-top: -420px;
+}
+
+#parhistoria{
+    margin-bottom: 50px;
+    padding: 15px;
+}
+
+#parjuego{
+    margin-bottom: 90px;
+    padding: 15px;
+}
+
+.botonestarjetas{
+    background-color: rgb(24, 28, 48);
+    border-bottom-left-radius: 10% ;
+    border-bottom-right-radius: 10% ;
+    border-top-left-radius: 15% ;
+    border-top-right-radius: 15% ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#botonhistoria{
+    margin-top: -5px;
+}
+
+#botonjuego{
+    margin-top: 100px;
+}
+
+/*_________________________________________________________________*/
+
+/* Parte final */
+
+.partefinal{
+    background-color:rgb(103, 137, 131);
+    margin-bottom: -210px;
+    margin-left: -10px;
+    margin-right: -20px;
+    margin-top: 200px;
+}
+
+#logofinal{
+    height: 80px;
+    padding: 55px;
+    width: 100px;
+}
+
+h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+    margin-bottom: 50px;
+    margin-top: -140px;
+    padding-bottom: 10px;
+    padding-left: 200px;
+    padding-right: 500px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#parrafofinal{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    margin-bottom: 50px;
+    margin-top: -100px;
+    padding-bottom: 100px;
+    padding-right: 30px;
+}
+
+
+
+
+
+
+
+
+

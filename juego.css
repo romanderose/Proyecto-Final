@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(24, 28, 48);
+    
+}
+
+/*_________________________________________________________________*/
+
+/*Botones de la parte de arriba*/
+
+.section-botonesinicio{
+    display: flex;
+    align-items: flex-end;
+    gap: 250px;
+}
+
+#botoninicio{
+    border: 3px solid red;
+    height: 75px;
+    margin-left: 50px;
+    width: 95px;
+}
+
+.botoneshyj{
+    background-color: rgb(230, 221, 196);
+    border-bottom-left-radius: 10% ;
+    border-bottom-right-radius: 10% ;
+    border-top-left-radius: 15% ;
+    border-top-right-radius: 15% ;
+    color: rgb(24, 28, 48);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    text-align: center;
+    box-shadow: 2px 2px rgb(103, 137, 131);
+}
+
+.botoneshyj:active{
+    box-shadow: none;
+    transform: translate(2px, 2px);
+}
+
+a{
+    text-decoration: none;
+}
+
+/*_________________________________________________________________*/
+
+/* Título y subtítulo */
+
+h1{
+    color: rgb(238, 238, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding-bottom: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 200px;
+    text-align: center;
+}
+
+h2{
+    color: rgb(103, 137, 131);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.fondotitulo{
+    background-image: url('./codigo.jpg');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 250px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+/*_________________________________________________________________*/
+
+/* Juego */
+
+.sectionjuego{
+    display: flex;
+    gap: 20px;
+}
+
+.juego{
+    margin-top: 100px;
+    background-color: grey;
+    color: white;
+    height: 400px;
+    width: 300px;
+    text-align: center;
+}
+
+

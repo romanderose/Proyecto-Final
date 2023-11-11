@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">                                                                                                                                              
+    <link rel="stylesheet" href="./historia.css">
+    <title>Román De Rose: Proyecto final</title>
+</head>
+<body>
+
+    <!--BOTONES INICIO-->
+
+    <section class="section-botonesinicio">
+    
+        <a href="./inicio.html">
+        <img id="botoninicio" src="./botonpaginainicio.png">
+        </a>
+
+        <a href="./historia.html">
+           <span class="botoneshyj">HISTORIA</span> 
+        </a>
+        
+        <a href="./juego.html">
+            <span class="botoneshyj">JUGUEMOS</span>
+        </a>
+        
+    </section>
+
+    <!--------------------------------------------------------------------------------------------------------->
+    <!--TÍTULO-->
+
+    <div class="fondotitulo">
+
+    <h1 id="titulo">HISTORIA DE LA <br/>PROGRAMACIÓN</h1>
+    
+    </div>
+
+    <!--------------------------------------------------------------------------------------------------------->
+    <!--SUBTÍTULOS Y CONTENIDO-->
+
+    <div class="texto">
+
+    <h2 class="subtitulos">El principio de la historia de la <br/>programación</h2>
+    <p class="pcont">El primer lenguaje de programación <br/> fue un algoritmo 
+     creado por Ada<br/> Lovelace en 1883. Ada Lovelace<br/> creó este algoritmo 
+     para el motor<br/> analítico de Charles Babbage. El<br/> propósito de este 
+     algoritmo era<br/> calcular los números de Bernoulli. En<br/> 1936, por 
+     primera vez, los códigos<br/> informáticos fueron especializados<br/> por Alonzo Church y Alan Turing.
+     <br/> Church expresó el cálculo lambda de<br/> forma 
+     formulativa.</p>
+
+    </div>
+
+    <div class="texto">
+
+        <p class="pcont">
+            Los primeros ordenadores modernos (alimentados<br/> eléctricamente) fueron 
+            creados en los años 40. Estas<br/> computadoras estaban limitadas en 
+            velocidad y<br/> capacidad de memoria.<br/> Debido a estas limitaciones, los 
+            programadores se<br/> vieron obligados a escribir manualmente programas<br/> 
+            en lenguaje ensamblador. Siendo un lenguaje de<br/> programación de bajo 
+            nivel, era una tarea difícil<br/> programarlo manualmente. Los 
+            programadores se<br/> dieron cuenta entonces de la necesidad de lenguajes<br/> 
+            de alto nivel para disminuir el esfuerzo que se<br/> requería para 
+            escribir los programas en lenguaje<br/> ensamblador manualmente. 
+
+        </p>
+        <h2 class="subtitulos">Lenguaje de <br/>ensamblaje</h2>
+
+    </div>
+
+    <div class="texto">
+
+        <h2 class="subtitulos">Los primeros <br/>lenguajes de <br/>programación</h2>
+        <p class="pcont">
+            Fórmula Translation es el lenguaje de programación más antiguo y que<br/> 
+            continúa en uso. Creada por John Backus en 1957, esta herramienta fue<br/> 
+            desarrollada para la computación científica de alto nivel, 
+            matemáticas y<br/> estadísticas. A día de hoy, este lenguaje se sigue 
+            usando en la industria<br/> automovilística, aeroespacial, gubernamental 
+            y la investigación. Por ejemplo, es<br/> muy útil para el pronóstico de 
+            los servicios meteorológicos.<br/> En 1959 se desarrollo Cobol, que está 
+            detrás de la mayoría de los sistemas de<br/> transacciones de negocio de 
+            los procesos de las tarjetas de crédito, ATMs (Modo<br/> de Transferencia 
+            Asíncrona), telefonía, sistemas hospitalarios, gobierno, sistemas<br/> 
+            automatizados y señales de tráfico.<br/> El desarrollo de Cobol, creado 
+            por Grace Murray Hopper, muestra un lenguaje<br/> familiar y uniforme para 
+            transacciones empresariales. Por ejemplo, lo usan en el<br/> servicio 
+            postal estadounidense.<br/> En 1964 se creo Basic, que fue diseñado como 
+            un lenguaje simplificado<br/> para aquellos que no tenían como base 
+            fuertes conocimientos técnicos o<br/> matemáticos.<br/> Entre 1969 y 1973 se 
+            crea C, a manos de Dennis Ritchie para los laboratorios Bell<br/> 
+            Telephone para usarlos en el sistema Unix. Se le llamó «C» porque 
+            sus<br/> características derivaban de un lenguaje anterior llamado «B».<br/>
+            En los laboratorios Bells, Bjarne Stroustrup modificó el lenguaje C 
+            al C++,<br/> creando lo que muchos consideran el lenguaje de programación 
+            más popular que<br/> ha existido nunca. Además, ha sido listado en lo alto 
+            de los top ten de los<br/> lenguajes de programación desde 1986 y archivado 
+            en el Hall of Fame en 2003.<br/> Hoy en día es usado por Firefox, Office y 
+            Adobe PDF Reader.<br/> Esto dio el puntapié a que se sigan perfeccionando 
+            los lenguajes hasta llegar a<br/> los lenguajes de hoy en día.
+        </p>
+        
+
+    </div>
+    
+    <h2 class="subtitulos" id="subtituloprevideo">Un breve video para complementar lo visto</h2>
+
+    <!--------------------------------------------------------------------------------------------------------->
+    <!--VIDEO-->
+
+    <section class="sectionvideo">
+
+        <video id="video" src="./historia-Comp.ogv"></video>
+
+        <div class="barra-rep">
+            <!--Inicio botones-->
+            <button onclick="iniciarvideo()">
+            <img src="./play.svg">
+            </button>
+
+            <button onclick="pararvideo()">
+            <img src="./pausa.svg">
+            </button>
+            <!--Fin botones-->
+            <p class="duracionvideo">Duración del video: <span class="tiempo"></span></p>
+        </div>
+    
+    </section>
+    
+    <!--------------------------------------------------------------------------------------------------------->
+    <!--PARTE FINAL-->
+
+    <div class="partefinal">
+        <img id="logofinal" src="./logo.png">
+        <h6>PROGRAMACIÓN <br/> E <br/> HISTORIA</h6>
+        <p id="parrafofinal">Sitio con fines educativos, creado por Román De Rose.</p>
+    </div>
+
+    <script src="./historia.js"></script>
+
+</body>
+</html>

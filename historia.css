@@ -1,0 +1,178 @@
+body{
+    background-color: rgb(24, 28, 48);
+}
+
+/*_________________________________________________________________*/
+
+/*Botones de la parte de arriba*/
+
+#botoninicio{
+    border: 3px solid red;
+    height: 75px;
+    margin-left: 50px;
+    width: 95px;
+}
+
+.section-botonesinicio{
+    display: flex;
+    align-items: flex-end;
+    gap: 250px;
+}
+
+.botoneshyj{
+    background-color: rgb(230, 221, 196);
+    border-bottom-left-radius: 10% ;
+    border-bottom-right-radius: 10% ;
+    border-top-left-radius: 15% ;
+    border-top-right-radius: 15% ;
+    color: rgb(24, 28, 48);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    text-align: center;
+    box-shadow: 2px 2px rgb(103, 137, 131);
+}
+
+.botoneshyj:active{
+    box-shadow: none;
+    transform: translate(2px, 2px);
+}
+
+a{
+    text-decoration: none;
+}
+
+/*_________________________________________________________________*/
+
+/* Título */
+
+#titulo{
+    color: rgb(238, 238, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    padding-bottom: 150px;
+    padding-left: 237px;
+    padding-right: 237px;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.fondotitulo{
+    background-image: url('./codigo.jpg');
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    margin-bottom: 100px;
+    margin-left: -10px;
+    margin-right: -20px;
+    margin-top: 50px;
+}
+
+/*_________________________________________________________________*/
+
+/* Subtítulos y párrafos largos */
+
+.texto{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+h2{
+    color: rgb(103, 137, 131);
+    display: flex;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.pcont{
+    color: rgb(230, 221, 196);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+#subtituloprevideo{
+    margin: 80px;
+}
+
+/*_________________________________________________________________*/
+
+/* Video */
+
+video{
+    margin-left: 3.5px;
+}
+
+.barra-rep{
+    color:white;
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+}
+
+button{
+    box-shadow: 2px 2px rgb(103, 137, 131);
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+button:active{
+    box-shadow: none;
+    transform: translate(2px, 2px);
+}
+
+.sectionvideo{
+    background-color: black;
+    border: 2px solid white;
+    margin-left: 200px;
+    margin-right: 140px;
+}
+
+/*_________________________________________________________________*/
+
+/* Parte final */
+
+.partefinal{
+    background-color:rgb(103, 137, 131);
+    display: flex;
+    justify-content: right;
+    margin-bottom: -20px;
+    margin-left: -10px;
+    margin-right: -20px;
+    margin-top: 200px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+#logofinal{
+    height: 80px;
+    margin-left: 30px;
+    padding: 50px;
+    width: 100px;
+}
+
+h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 500px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#parrafofinal{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 30px; 
+}
+
+
