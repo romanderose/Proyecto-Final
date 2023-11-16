@@ -12,15 +12,27 @@
     <section class="section-botonesinicio">
 
       <a href="./inicio.html">
-            <img id="botoninicio" src="./botonpaginainicio.png">
+        <svg>
+          <rect x="50" y="7.5" width="70" height="40" rx="5" 
+          id="mon1" fill="#F0E9D2"></rect>
+
+          <rect class="rect-polygon" x="60" y="15" width="50" height="25" rx="5"
+          fill="#495579"></rect>
+
+          <polygon points="55 50, 115 50, 125 70, 40 70" 
+          fill="#F0E9D2"></polygon>
+
+          <polygon class="rect-polygon" points="60 52, 110 52, 120 68, 45 68"
+          fill="#495579"></polygon>
+      </svg>
       </a>
 
       <a href="./historia.html">
-            <span class="botoneshyj">HISTORIA</span>
+            <span class="botoneshyj" id="historia">HISTORIA</span>
       </a>
 
       <a href="./juego.html">
-            <span class="botoneshyj">JUGUEMOS</span>  
+            <span class="botoneshyj" id="juguemos">JUGUEMOS</span>  
       </a>  
 
     </section>
@@ -37,23 +49,27 @@
 
     <!--JUEGO-->
 
-    <section class="sectionjuego">
-        <div class="juego">Arrastre y suelte la imagen aquí</div>
-        <div class="juego">Arrastre y suelte la imagen aquí</div>
-        <div class="juego">Arrastre y suelte la imagen aquí</div>
+    <section id="destino">
+        <div class="zonadestino">Arrastre y suelte la imagen aquí</div>
+        <div class="zonadestino">Arrastre y suelte la imagen aquí</div>
+        <div class="zonadestino">Arrastre y suelte la imagen aquí</div>
     </section>
 
-    <section class="sectionjuego">
-        
-        <img class="juego" src="./Rompe1.png">
-
-        <img class="juego" src="./rompe2.png">
- 
-        <img class="juego" src="./Rompe3.png">
-
+    <section id="imagenes">
+      <img class="imagenesjuego" src="./rompe2.png">
+      <img class="imagenesjuego" src="./Rompe1.png">
+      <img class="imagenesjuego"  src="./Rompe3.png">
     </section>
+
+    <section class="reinicio">
+      <a href="./juego.html">
+      <span class="botonresetjuego">Reiniciar</span>
+      </a>
+    </section>
+
+    <p></p>
 
     <script src="./juego.js"></script>
-
 </body>
+
 </html>

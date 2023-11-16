@@ -12,11 +12,30 @@ body{
     gap: 250px;
 }
 
-#botoninicio{
-    border: 3px solid red;
-    height: 75px;
-    margin-left: 50px;
-    width: 95px;
+svg{
+    margin-right: -150px;
+    margin-bottom: -100px;
+    height: 150px;
+    width: 150px;
+}
+
+.rect-polygon{
+    animation-name: animacion;
+    animation-duration: 60s;
+    animation-delay: none;
+}
+
+@keyframes animacion{
+    25%{
+        fill: green;
+    }
+    50%{
+        fill: yellow;
+        stroke: black;
+    }
+    75%{
+        fill: red;
+    }
 }
 
 .botoneshyj{
@@ -33,6 +52,14 @@ body{
     padding-top: 10px;
     text-align: center;
     box-shadow: 2px 2px rgb(103, 137, 131);
+}
+
+#historia{
+    margin-left: 350px;
+}
+
+#juguemos{
+    margin-left: -200px;
 }
 
 .botoneshyj:active{
@@ -57,6 +84,7 @@ a{
     padding-right: 237px;
     padding-top: 150px;
     text-align: center;
+    text-shadow: 5px 5px black;
 }
 
 .fondotitulo{
@@ -116,6 +144,7 @@ h2{
     border-bottom-right-radius: 10% ;
     border-top-left-radius: 15% ;
     border-top-right-radius: 15% ;
+    box-shadow: 3px 4px rgb(103, 137, 131);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 10px;
@@ -131,6 +160,11 @@ h2{
 
 #botonjuego{
     margin-top: 100px;
+}
+
+.botonestarjetas:active{
+    box-shadow: none;
+    transform: translate(3px, 4px);
 }
 
 /*_________________________________________________________________*/

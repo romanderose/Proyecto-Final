@@ -6,11 +6,30 @@ body{
 
 /*Botones de la parte de arriba*/
 
-#botoninicio{
-    border: 3px solid red;
-    height: 75px;
-    margin-left: 50px;
-    width: 95px;
+svg{
+    margin-right: -150px;
+    margin-bottom: -100px;
+    height: 150px;
+    width: 150px;
+}
+
+.rect-polygon{
+    animation-name: animacion;
+    animation-duration: 60s;
+    animation-delay: none;
+}
+
+@keyframes animacion{
+    25%{
+        fill: green;
+    }
+    50%{
+        fill: yellow;
+        stroke: black;
+    }
+    75%{
+        fill: red;
+    }
 }
 
 .section-botonesinicio{
@@ -40,6 +59,14 @@ body{
     transform: translate(2px, 2px);
 }
 
+#historia{
+    margin-left: 350px;
+}
+
+#juguemos{
+    margin-left:-200px;
+}
+
 a{
     text-decoration: none;
 }
@@ -57,6 +84,7 @@ a{
     padding-right: 237px;
     padding-top: 150px;
     text-align: center;
+    text-shadow: 5px 5px black;
 }
 
 .fondotitulo{
